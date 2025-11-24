@@ -1,0 +1,15 @@
+# Baichuan-13B-Chat + UniPELT微调所需的依赖
+# 安装命令: pip install -r requirements.txt
+
+# 核心依赖
+transformers>=4.30.0
+torch>=2.0.0
+peft>=0.6.0
+accelerate>=0.20.0
+datasets>=2.0.0
+
+# 训练监控
+tensorboard>=2.13.0
+
+# 工具库
+tqdm>=4.65.0
